@@ -15,6 +15,9 @@
 		042AC58623B8C99F0073DFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042AC58423B8C99F0073DFCD /* LaunchScreen.storyboard */; };
 		042AC59123B8C99F0073DFCD /* NearbyAirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC59023B8C99F0073DFCD /* NearbyAirportTests.swift */; };
 		042AC59C23B8C99F0073DFCD /* NearbyAirportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC59B23B8C99F0073DFCD /* NearbyAirportUITests.swift */; };
+		3758DC80369AC6D6734D2E73 /* Pods_NearbyAirport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0318F3E4CEE2A23561F9FBB4 /* Pods_NearbyAirport.framework */; };
+		7BCF8E51C77A69B37C515E34 /* Pods_NearbyAirport_NearbyAirportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DB22FC281AD9A7F7F72F60 /* Pods_NearbyAirport_NearbyAirportUITests.framework */; };
+		EC9495624BB05B151CA3C7BD /* Pods_NearbyAirportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9588D209298C22B71F3E954D /* Pods_NearbyAirportTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0318F3E4CEE2A23561F9FBB4 /* Pods_NearbyAirport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyAirport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		042AC57623B8C99C0073DFCD /* NearbyAirport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyAirport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042AC57923B8C99C0073DFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042AC57B23B8C99C0073DFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		042AC59723B8C99F0073DFCD /* NearbyAirportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyAirportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042AC59B23B8C99F0073DFCD /* NearbyAirportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyAirportUITests.swift; sourceTree = "<group>"; };
 		042AC59D23B8C99F0073DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3687F53ADE6A71D9B32EA40D /* Pods-NearbyAirport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport.debug.xcconfig"; path = "Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport.debug.xcconfig"; sourceTree = "<group>"; };
+		6A000B92FB101629E425A687 /* Pods-NearbyAirport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport.release.xcconfig"; path = "Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport.release.xcconfig"; sourceTree = "<group>"; };
+		9588D209298C22B71F3E954D /* Pods_NearbyAirportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyAirportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DB22FC281AD9A7F7F72F60 /* Pods_NearbyAirport_NearbyAirportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyAirport_NearbyAirportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0750EF3ECBED82DE927FF5A /* Pods-NearbyAirport-NearbyAirportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport-NearbyAirportUITests.release.xcconfig"; path = "Target Support Files/Pods-NearbyAirport-NearbyAirportUITests/Pods-NearbyAirport-NearbyAirportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0B2882BE0D5C8D0102C6320 /* Pods-NearbyAirport-NearbyAirportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport-NearbyAirportUITests.debug.xcconfig"; path = "Target Support Files/Pods-NearbyAirport-NearbyAirportUITests/Pods-NearbyAirport-NearbyAirportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB329B97828879E483019A3 /* Pods-NearbyAirportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirportTests.debug.xcconfig"; path = "Target Support Files/Pods-NearbyAirportTests/Pods-NearbyAirportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1C7FD2E90F23DC91A357F8 /* Pods-NearbyAirportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirportTests.release.xcconfig"; path = "Target Support Files/Pods-NearbyAirportTests/Pods-NearbyAirportTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3758DC80369AC6D6734D2E73 /* Pods_NearbyAirport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9495624BB05B151CA3C7BD /* Pods_NearbyAirportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCF8E51C77A69B37C515E34 /* Pods_NearbyAirport_NearbyAirportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				042AC58F23B8C99F0073DFCD /* NearbyAirportTests */,
 				042AC59A23B8C99F0073DFCD /* NearbyAirportUITests */,
 				042AC57723B8C99C0073DFCD /* Products */,
+				2C68FBBC19631405D93C0D53 /* Pods */,
+				49E4828647ADBF65BD5FAF9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = NearbyAirportUITests;
 			sourceTree = "<group>";
 		};
+		2C68FBBC19631405D93C0D53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3687F53ADE6A71D9B32EA40D /* Pods-NearbyAirport.debug.xcconfig */,
+				6A000B92FB101629E425A687 /* Pods-NearbyAirport.release.xcconfig */,
+				B0B2882BE0D5C8D0102C6320 /* Pods-NearbyAirport-NearbyAirportUITests.debug.xcconfig */,
+				B0750EF3ECBED82DE927FF5A /* Pods-NearbyAirport-NearbyAirportUITests.release.xcconfig */,
+				CCB329B97828879E483019A3 /* Pods-NearbyAirportTests.debug.xcconfig */,
+				CF1C7FD2E90F23DC91A357F8 /* Pods-NearbyAirportTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49E4828647ADBF65BD5FAF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0318F3E4CEE2A23561F9FBB4 /* Pods_NearbyAirport.framework */,
+				97DB22FC281AD9A7F7F72F60 /* Pods_NearbyAirport_NearbyAirportUITests.framework */,
+				9588D209298C22B71F3E954D /* Pods_NearbyAirportTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042AC5A023B8C99F0073DFCD /* Build configuration list for PBXNativeTarget "NearbyAirport" */;
 			buildPhases = (
+				E9C33C07D82284848372A4AD /* [CP] Check Pods Manifest.lock */,
 				042AC57223B8C99C0073DFCD /* Sources */,
 				042AC57323B8C99C0073DFCD /* Frameworks */,
 				042AC57423B8C99C0073DFCD /* Resources */,
+				17D43513E5CF7060859556A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042AC5A323B8C99F0073DFCD /* Build configuration list for PBXNativeTarget "NearbyAirportTests" */;
 			buildPhases = (
+				3F42943DCA140DE5C1C1B35A /* [CP] Check Pods Manifest.lock */,
 				042AC58823B8C99F0073DFCD /* Sources */,
 				042AC58923B8C99F0073DFCD /* Frameworks */,
 				042AC58A23B8C99F0073DFCD /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042AC5A623B8C99F0073DFCD /* Build configuration list for PBXNativeTarget "NearbyAirportUITests" */;
 			buildPhases = (
+				3F959A16D7DC12008F0BC5A2 /* [CP] Check Pods Manifest.lock */,
 				042AC59323B8C99F0073DFCD /* Sources */,
 				042AC59423B8C99F0073DFCD /* Frameworks */,
 				042AC59523B8C99F0073DFCD /* Resources */,
+				E827165AA5D63668C7E85FD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D43513E5CF7060859556A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F42943DCA140DE5C1C1B35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyAirportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F959A16D7DC12008F0BC5A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyAirport-NearbyAirportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E827165AA5D63668C7E85FD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport-NearbyAirportUITests/Pods-NearbyAirport-NearbyAirportUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport-NearbyAirportUITests/Pods-NearbyAirport-NearbyAirportUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyAirport-NearbyAirportUITests/Pods-NearbyAirport-NearbyAirportUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C33C07D82284848372A4AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearbyAirport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		042AC57223B8C99C0073DFCD /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		042AC5A123B8C99F0073DFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3687F53ADE6A71D9B32EA40D /* Pods-NearbyAirport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		042AC5A223B8C99F0073DFCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A000B92FB101629E425A687 /* Pods-NearbyAirport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		042AC5A423B8C99F0073DFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB329B97828879E483019A3 /* Pods-NearbyAirportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		042AC5A523B8C99F0073DFCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1C7FD2E90F23DC91A357F8 /* Pods-NearbyAirportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		042AC5A723B8C99F0073DFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B2882BE0D5C8D0102C6320 /* Pods-NearbyAirport-NearbyAirportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		042AC5A823B8C99F0073DFCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0750EF3ECBED82DE927FF5A /* Pods-NearbyAirport-NearbyAirportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
