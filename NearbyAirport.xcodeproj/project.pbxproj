@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,18 @@
 		042AC58623B8C99F0073DFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042AC58423B8C99F0073DFCD /* LaunchScreen.storyboard */; };
 		042AC59123B8C99F0073DFCD /* NearbyAirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC59023B8C99F0073DFCD /* NearbyAirportTests.swift */; };
 		042AC59C23B8C99F0073DFCD /* NearbyAirportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC59B23B8C99F0073DFCD /* NearbyAirportUITests.swift */; };
+		042AC5AB23B8CB4E0073DFCD /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 042AC5AA23B8CB4E0073DFCD /* Data.json */; };
+		042AC5AE23B8CC1C0073DFCD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5AD23B8CC1C0073DFCD /* Constant.swift */; };
+		042AC5B023B8CC600073DFCD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5AF23B8CC600073DFCD /* Utils.swift */; };
+		042AC5B323B8CCA60073DFCD /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5B223B8CCA60073DFCD /* LocationViewModel.swift */; };
+		042AC5BA23B8CD6B0073DFCD /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5B923B8CD6B0073DFCD /* PointView.swift */; };
+		042AC5BC23B8CD7E0073DFCD /* PointView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042AC5BB23B8CD7E0073DFCD /* PointView.xib */; };
+		042AC5BE23B8CDA10073DFCD /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5BD23B8CDA10073DFCD /* PointTableViewCell.swift */; };
+		042AC5C023B8CDB70073DFCD /* PointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042AC5BF23B8CDB70073DFCD /* PointTableViewCell.xib */; };
+		042AC5C223B8CDEB0073DFCD /* PointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5C123B8CDEB0073DFCD /* PointProvider.swift */; };
+		042AC5C423B8CE020073DFCD /* LocationManagerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5C323B8CE020073DFCD /* LocationManagerProvider.swift */; };
+		042AC5C623B8CE160073DFCD /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5C523B8CE160073DFCD /* MapProvider.swift */; };
+		042AC5C823B8CE310073DFCD /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AC5C723B8CE310073DFCD /* LocationModel.swift */; };
 		3758DC80369AC6D6734D2E73 /* Pods_NearbyAirport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0318F3E4CEE2A23561F9FBB4 /* Pods_NearbyAirport.framework */; };
 		7BCF8E51C77A69B37C515E34 /* Pods_NearbyAirport_NearbyAirportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DB22FC281AD9A7F7F72F60 /* Pods_NearbyAirport_NearbyAirportUITests.framework */; };
 		EC9495624BB05B151CA3C7BD /* Pods_NearbyAirportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9588D209298C22B71F3E954D /* Pods_NearbyAirportTests.framework */; };
@@ -39,7 +51,7 @@
 
 /* Begin PBXFileReference section */
 		0318F3E4CEE2A23561F9FBB4 /* Pods_NearbyAirport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyAirport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		042AC57623B8C99C0073DFCD /* NearbyAirport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyAirport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042AC57623B8C99C0073DFCD /* Nearby Airport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearby Airport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042AC57923B8C99C0073DFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042AC57B23B8C99C0073DFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		042AC57D23B8C99C0073DFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +65,18 @@
 		042AC59723B8C99F0073DFCD /* NearbyAirportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyAirportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042AC59B23B8C99F0073DFCD /* NearbyAirportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyAirportUITests.swift; sourceTree = "<group>"; };
 		042AC59D23B8C99F0073DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042AC5AA23B8CB4E0073DFCD /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		042AC5AD23B8CC1C0073DFCD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		042AC5AF23B8CC600073DFCD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		042AC5B223B8CCA60073DFCD /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		042AC5B923B8CD6B0073DFCD /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
+		042AC5BB23B8CD7E0073DFCD /* PointView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointView.xib; sourceTree = "<group>"; };
+		042AC5BD23B8CDA10073DFCD /* PointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTableViewCell.swift; sourceTree = "<group>"; };
+		042AC5BF23B8CDB70073DFCD /* PointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointTableViewCell.xib; sourceTree = "<group>"; };
+		042AC5C123B8CDEB0073DFCD /* PointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointProvider.swift; sourceTree = "<group>"; };
+		042AC5C323B8CE020073DFCD /* LocationManagerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerProvider.swift; sourceTree = "<group>"; };
+		042AC5C523B8CE160073DFCD /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
+		042AC5C723B8CE310073DFCD /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		3687F53ADE6A71D9B32EA40D /* Pods-NearbyAirport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport.debug.xcconfig"; path = "Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport.debug.xcconfig"; sourceTree = "<group>"; };
 		6A000B92FB101629E425A687 /* Pods-NearbyAirport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyAirport.release.xcconfig"; path = "Target Support Files/Pods-NearbyAirport/Pods-NearbyAirport.release.xcconfig"; sourceTree = "<group>"; };
 		9588D209298C22B71F3E954D /* Pods_NearbyAirportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearbyAirportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +130,7 @@
 		042AC57723B8C99C0073DFCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				042AC57623B8C99C0073DFCD /* NearbyAirport.app */,
+				042AC57623B8C99C0073DFCD /* Nearby Airport.app */,
 				042AC58C23B8C99F0073DFCD /* NearbyAirportTests.xctest */,
 				042AC59723B8C99F0073DFCD /* NearbyAirportUITests.xctest */,
 			);
@@ -116,6 +140,12 @@
 		042AC57823B8C99C0073DFCD /* NearbyAirport */ = {
 			isa = PBXGroup;
 			children = (
+				042AC5B623B8CCE50073DFCD /* Models */,
+				042AC5B523B8CCD90073DFCD /* Providers */,
+				042AC5B423B8CCCC0073DFCD /* Views */,
+				042AC5B123B8CC730073DFCD /* ViewModels */,
+				042AC5AC23B8CB670073DFCD /* Utilities */,
+				042AC5A923B8CB2D0073DFCD /* Resources */,
 				042AC57923B8C99C0073DFCD /* AppDelegate.swift */,
 				042AC57B23B8C99C0073DFCD /* SceneDelegate.swift */,
 				042AC57D23B8C99C0073DFCD /* ViewController.swift */,
@@ -145,6 +175,60 @@
 			path = NearbyAirportUITests;
 			sourceTree = "<group>";
 		};
+		042AC5A923B8CB2D0073DFCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5AA23B8CB4E0073DFCD /* Data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		042AC5AC23B8CB670073DFCD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5AD23B8CC1C0073DFCD /* Constant.swift */,
+				042AC5AF23B8CC600073DFCD /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		042AC5B123B8CC730073DFCD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5B223B8CCA60073DFCD /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		042AC5B423B8CCCC0073DFCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5B923B8CD6B0073DFCD /* PointView.swift */,
+				042AC5BB23B8CD7E0073DFCD /* PointView.xib */,
+				042AC5BD23B8CDA10073DFCD /* PointTableViewCell.swift */,
+				042AC5BF23B8CDB70073DFCD /* PointTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042AC5B523B8CCD90073DFCD /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5C123B8CDEB0073DFCD /* PointProvider.swift */,
+				042AC5C323B8CE020073DFCD /* LocationManagerProvider.swift */,
+				042AC5C523B8CE160073DFCD /* MapProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		042AC5B623B8CCE50073DFCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042AC5C723B8CE310073DFCD /* LocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2C68FBBC19631405D93C0D53 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +239,6 @@
 				CCB329B97828879E483019A3 /* Pods-NearbyAirportTests.debug.xcconfig */,
 				CF1C7FD2E90F23DC91A357F8 /* Pods-NearbyAirportTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -188,7 +271,7 @@
 			);
 			name = NearbyAirport;
 			productName = NearbyAirport;
-			productReference = 042AC57623B8C99C0073DFCD /* NearbyAirport.app */;
+			productReference = 042AC57623B8C99C0073DFCD /* Nearby Airport.app */;
 			productType = "com.apple.product-type.application";
 		};
 		042AC58B23B8C99F0073DFCD /* NearbyAirportTests */ = {
@@ -278,9 +361,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042AC5C023B8CDB70073DFCD /* PointTableViewCell.xib in Resources */,
 				042AC58623B8C99F0073DFCD /* LaunchScreen.storyboard in Resources */,
 				042AC58323B8C99F0073DFCD /* Assets.xcassets in Resources */,
+				042AC5BC23B8CD7E0073DFCD /* PointView.xib in Resources */,
 				042AC58123B8C99C0073DFCD /* Main.storyboard in Resources */,
+				042AC5AB23B8CB4E0073DFCD /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +494,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042AC5BE23B8CDA10073DFCD /* PointTableViewCell.swift in Sources */,
+				042AC5C423B8CE020073DFCD /* LocationManagerProvider.swift in Sources */,
+				042AC5BA23B8CD6B0073DFCD /* PointView.swift in Sources */,
+				042AC5C623B8CE160073DFCD /* MapProvider.swift in Sources */,
+				042AC5C823B8CE310073DFCD /* LocationModel.swift in Sources */,
+				042AC5C223B8CDEB0073DFCD /* PointProvider.swift in Sources */,
+				042AC5B023B8CC600073DFCD /* Utils.swift in Sources */,
+				042AC5B323B8CCA60073DFCD /* LocationViewModel.swift in Sources */,
 				042AC57E23B8C99C0073DFCD /* ViewController.swift in Sources */,
 				042AC57A23B8C99C0073DFCD /* AppDelegate.swift in Sources */,
 				042AC57C23B8C99C0073DFCD /* SceneDelegate.swift in Sources */,
+				042AC5AE23B8CC1C0073DFCD /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +687,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = blog.wirasetiawan.NearbyAirport;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nearby Airport";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -611,7 +706,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = blog.wirasetiawan.NearbyAirport;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nearby Airport";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

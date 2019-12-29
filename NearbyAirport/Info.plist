@@ -60,5 +60,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Nearby Airport requires access to your phone’s location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Nearby Airport requires access to your phone’s location .</string>
 </dict>
 </plist>
